@@ -9,12 +9,11 @@ export const theme = extendTheme({
 		primary: {
 			200: "#FDF2B2",
 			400: "#F8DD6D",
-			500: "#DDB62A",
+			500: "#F4CC3E", //base color
 			700: "#AF891F",
 		},
 		black: "#121212",
-		white: "FEFDFD",
-		blue: "09192F",
+		blue: "09192F", //dark mode color
 	},
 	fonts: {
 		body: "Poppins",

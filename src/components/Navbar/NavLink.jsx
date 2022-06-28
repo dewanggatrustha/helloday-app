@@ -1,8 +1,10 @@
 import React from "react";
 import { Link, useColorModeValue } from "@chakra-ui/react";
+import { Link as RouteLink } from "react-router-dom";
 
-const NavLink = ({ children }) => (
+const NavLink = ({ name, to }) => (
 	<Link
+		as={RouteLink}
 		p="4px"
 		m="4px"
 		rounded={"md"}
@@ -12,9 +14,9 @@ const NavLink = ({ children }) => (
 			color: "black",
 			bg: useColorModeValue("gray.100", "gray.700"),
 		}}
-		href={"#"}
+		to={to}
 	>
-		{children}
+		{name}
 	</Link>
 );
 
