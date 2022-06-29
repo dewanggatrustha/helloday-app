@@ -1,0 +1,88 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #EEF0F8;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .item1 { 
+    grid-area: header; 
+    margin-bottom: -10px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+  }
+  
+  .item3 { 
+    grid-area: main; 
+    text-align: left;
+  }
+  .item4 { grid-area: right; }
+  button{
+      border: none;
+      width: 100px;
+      height: 40px;
+      background: #F4CC3E;
+      border-radius: 10px;
+      margin-left: 10px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 100;
+      font-size: 18px;
+      color: white;
+      letter-spacing: 1.5px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      
+  }
+  h3{
+      padding-left: 10px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+  }
+  p{
+      padding-left: 10px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 0;
+      font-size: 18px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main right right right';
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .grid-container > div { 
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .poto{
+      margin-left: 100px;
+      align-items: center;
+      width: 600px;
+  }
+  img{
+      margin-bottom: 25px; 
+      text-align: center ;
+      width: 358px;
+      height: 189px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 10px;
+  }
