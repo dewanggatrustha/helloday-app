@@ -78,9 +78,11 @@ const Navbar = () => {
 				<Flex m="12px" p="4px" display={{ md: "none" }}>
 					<Stack as={"nav"} spacing={4}>
 						{NavData.map((data) => (
-							<NavLink key={data.id} to={data.to}>
-								{data.name}
-							</NavLink>
+							<NavLink
+								key={data.id}
+								to={data.to}
+								name={data.name}
+							></NavLink>
 						))}
 					</Stack>
 				</Flex>
