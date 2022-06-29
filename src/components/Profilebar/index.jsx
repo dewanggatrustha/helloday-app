@@ -12,7 +12,8 @@ import {
 	Text,
 	Box,
 } from "@chakra-ui/react";
-import { MoonIcon, SunIcon, BellIcon } from "@chakra-ui/icons";
+import { BellIcon } from "@chakra-ui/icons";
+import { BsSun, BsMoonStarsFill } from "react-icons/bs";
 
 const ProfileBar = ({ name, avatarImg }) => {
 	const { colorMode, toggleColorMode } = useColorMode();
@@ -51,7 +52,7 @@ const ProfileBar = ({ name, avatarImg }) => {
 				<MenuList>
 					<MenuItem
 						onClick={toggleColorMode}
-						icon={colorMode === "light" ? <MoonIcon /> : <SunIcon />}
+						icon={colorMode === "light" ? <BsMoonStarsFill /> : <BsSun />}
 					>
 						{colorMode === "light" ? "Dark Mode" : "Light Mode"}
 					</MenuItem>
