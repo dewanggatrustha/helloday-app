@@ -10,26 +10,24 @@ import Navbar from "./components/Navbar";
 export default function App() {
 	return (
 		<>
-			<Router>
-				<Navbar />
-				<Switch>
-					<Route path="/whattodo">
-						<WhatToDo />
-					</Route>
-					<Route path="/volunteer">
-						<Volunteer />
-					</Route>
-					<Route path="/fundraising">
-						<Fundraising />
-					</Route>
-					<Route path="/disastermap">
-						<DisasterMap />
-					</Route>
-					<Route exact path="/">
-						<Weather />
-					</Route>
-				</Switch>
-			</Router>
+			<Navbar />
+			<Switch>
+				<Route path="/whattodo">
+					<WhatToDo />
+				</Route>
+				<Route path="/volunteer">
+					<Volunteer />
+				</Route>
+				<Route path="/fundraising">
+					<Fundraising />
+				</Route>
+				<Route path="/disastermap">
+					<DisasterMap />
+				</Route>
+				<Route path="/">
+					<Weather />
+				</Route>
+			</Switch>
 		</>
 	);
 }
