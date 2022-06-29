@@ -2,37 +2,22 @@ import React from "react";
 import {
 	Image,
 	Flex,
-	Avatar,
 	HStack,
 	IconButton,
-	Button,
-	Menu,
-	MenuButton,
-	MenuList,
-	MenuItem,
-	MenuDivider,
 	useDisclosure,
 	useColorModeValue,
-	useColorMode,
 	Stack,
 	Heading,
-	Text,
 	Box,
 } from "@chakra-ui/react";
-import {
-	MoonIcon,
-	SunIcon,
-	CloseIcon,
-	HamburgerIcon,
-	BellIcon,
-} from "@chakra-ui/icons";
+import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import Logo from "../../logo.svg";
 import NavLink from "./NavLink";
 import NavData from "./NavData";
 import { BrowserRouter as Router } from "react-router-dom";
+import ProfileBar from "../Profilebar";
 
 const Navbar = () => {
-	const { colorMode, toggleColorMode } = useColorMode();
 	const { isOpen, onOpen, onClose } = useDisclosure();
 
 	return (
@@ -85,60 +70,7 @@ const Navbar = () => {
 							</HStack>
 						</HStack>
 						<Flex gap="2" alignItems={"center"}>
-							<Menu>
-								<MenuButton
-									as={Button}
-									cursor={"pointer"}
-									variant={"ghost"}
-								>
-									<BellIcon />
-								</MenuButton>
-								<MenuList>
-									<MenuItem>
-										<Box>Notification 1</Box>
-									</MenuItem>
-									<MenuDivider />
-									<MenuItem>
-										<Box>Notification 1</Box>
-									</MenuItem>
-								</MenuList>
-							</Menu>
-							<Menu>
-								<MenuButton
-									as={Button}
-									variant={"ghost"}
-									cursor={"pointer"}
-									minW={0}
-								>
-									<HStack>
-										<Avatar size={"sm"} src={""} />
-										<Text
-											fontWeight={500}
-											display={{ base: "none", md: "flex" }}
-										>
-											Username
-										</Text>
-									</HStack>
-								</MenuButton>
-								<MenuList>
-									<MenuItem
-										onClick={toggleColorMode}
-										icon={
-											colorMode === "light" ? (
-												<MoonIcon />
-											) : (
-												<SunIcon />
-											)
-										}
-									>
-										{colorMode === "light"
-											? "Dark Mode"
-											: "Light Mode"}
-									</MenuItem>
-									<MenuDivider />
-									<MenuItem>Sign Out</MenuItem>
-								</MenuList>
-							</Menu>
+							<ProfileBar name="Username" />
 						</Flex>
 					</Flex>
 				</Flex>
