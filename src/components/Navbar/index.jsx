@@ -60,6 +60,14 @@ const Navbar = () => {
 							spacing={4}
 							display={{ base: "none", md: "flex" }}
 						>
+						<Flex gap="2" alignItems={"center"}>
+							<ProfileBar name="Username" />
+						</Flex>
+					</Flex>
+				</Flex>
+				{isOpen ? (
+					<Flex m="12px" p="4px" display={{ md: "none" }}>
+						<Stack as={"nav"} spacing={4}>
 							{NavData.map((data) => (
 								<NavLink
 									key={data.id}
