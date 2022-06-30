@@ -4,9 +4,9 @@ const tsunamiInformation = {
 		definition:
 			"A tsunami is a series of extremely long waves caused by a large and sudden displacement of the ocean, usually the result of an earthquake below or near the ocean floor.",
 		image: [
-			"https://img.okezone.com/content/2022/05/17/337/2595574/5-daftar-angin-puting-beliung-terparah-di-indonesia-terbangkan-atap-hingga-pohon-tumbang-xbP26sSX0j.jpg",
-			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTYNFanZfxmVtzhNVk-RD48jxqGypnUQ8M4HbIDNi6SQMQv5H5fRbdozD64pk9cR8kaqk&usqp=CAU",
-			"https://bnpb.go.id//uploads/new/news/8km5h_z2Jq41.jpeg",
+			"https://asset.kompas.com/crops/cKW0Rlts9q27vXhl_gho26h6bm0=/0x0:1992x1328/750x500/data/photo/2020/03/11/5e689e40e618e.jpg",
+			"https://images.theconversation.com/files/251862/original/file-20181221-103631-1hh06c8.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=900.0&fit=crop",
+			"https://cdn0-production-images-kly.akamaized.net/Qv1LNKK-81bKUifNV4SX2AwVbtU=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1184161/original/079436500_1459140757-tsunami_3.jpg",
 		],
 	},
 };
