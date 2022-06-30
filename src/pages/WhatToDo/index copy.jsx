@@ -42,9 +42,6 @@ import {
   tsunamiInstruction,
 } from "../../data/InstructionData";
 
-import emergencyData from "../../data/EmergencyData";
-import EmergencyCard from "../../components/Cards/EmergencyCard";
-
 const WhatToDo = () => {
   return (
     <>
@@ -626,17 +623,14 @@ const WhatToDo = () => {
                   </Heading>
                 </VStack>
               </Stack>
-              <Grid templateColumns="repeat(3, 1fr)" gap="20px">
-                {emergencyData.map((data) => (
-                  <GridItem>
-                    <EmergencyCard
-                      key={data.id}
-                      name={data.name}
-                      image={data.image}
-                      number={data.number}
-                    />
-                  </GridItem>
-                ))}
+              <Grid templateColumns="repeat(3, 2fr)" gap={6}>
+                {/* Looping disini pakai Grid Item dengan map */}
+                <GridItem w="100%" h="10" bg="primary.500" />
+                <GridItem w="100%" h="10" bg="primary.500" />
+                <GridItem w="100%" h="10" bg="primary.500" />
+                <GridItem w="100%" h="10" bg="primary.500" />
+                <GridItem w="100%" h="10" bg="primary.500" />
+                <GridItem w="100%" h="10" bg="primary.500" />
               </Grid>
             </TabPanel>
           </TabPanels>
