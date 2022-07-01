@@ -12,7 +12,15 @@ import {
 
 const FloatingCard = () => {
   return (
-    <Box boxShadow="md" p="6" rounded="md" bg="white" mb="5" w="100%">
+    <Box
+      boxShadow="md"
+      p="6"
+      rounded="md"
+      bg="white"
+      mb="5"
+      w="100%"
+      align="left"
+    >
       <VStack align="left">
         <HStack>
           <Text color="green" fontWeight="medium">

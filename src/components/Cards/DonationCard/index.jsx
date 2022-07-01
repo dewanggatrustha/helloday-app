@@ -1,6 +1,6 @@
 import React from "react";
 import donationData from "../../../data/DonationData";
-import { Box, HStack, Text, Image, VStack } from "@chakra-ui/react";
+import { Box, HStack, Text, Image, VStack, Button } from "@chakra-ui/react";
 
 const DonationCard = () => {
   return (
@@ -34,6 +34,11 @@ const DonationCard = () => {
           </Box>
         );
       })}
+      <Box align="center">
+        <Button colorScheme="yellow" variant="outline" w="200px" mt="5">
+          See More
+        </Button>
+      </Box>
     </>
   );
 };
