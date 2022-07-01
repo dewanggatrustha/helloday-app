@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Weather from "./pages/Weather";
 import DisasterMap from "./pages/DisasterMap";
 import Fundraising from "./pages/Fundraising";
