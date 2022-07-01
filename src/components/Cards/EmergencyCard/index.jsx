@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react";
 import { PhoneIcon } from "@chakra-ui/icons";
 
-const EmergencyCard = ({ name, image, number }) => {
+const EmergencyCard = ({ name, image, alt, number }) => {
 	return (
 		<Flex
 			p="10px"
@@ -27,6 +27,7 @@ const EmergencyCard = ({ name, image, number }) => {
 				rounded="5px"
 				mr="20px"
 				src={image}
+				alt={alt}
 			/>
 
 			<Box textAlign="center">
