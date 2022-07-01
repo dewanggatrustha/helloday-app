@@ -812,6 +812,7 @@ const WhatToDo = () => {
 											key={data.id}
 											name={data.name}
 											image={data.image}
+											alt={data.name}
 											number={data.number}
 										/>
 									</GridItem>
