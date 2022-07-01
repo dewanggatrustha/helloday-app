@@ -20,7 +20,6 @@ const ProfileBar = ({ name, avatarImg }) => {
 
 	return (
 		<>
-			{" "}
 			<Menu>
 				<MenuButton as={Button} cursor={"pointer"} variant={"ghost"}>
 					<BellIcon />
