@@ -27,7 +27,7 @@ const fireInstruction = [
 		step: [
 			"Keep a distance from places where fires occur.",
 			"Get a fire extinguisher, call local residents to help put out the fire and call the fire department.",
-			"Close your nose and breathe through your mouth so that the smoke doesn't enter your lungs.",
+			"Close your nose and breathe through your mouth, so that the smoke doesn't enter your lungs.",
 		],
 	},
 	{
