@@ -1,7 +1,23 @@
 import React from "react";
 import { Box, HStack, Text, Image, VStack } from "@chakra-ui/react";
 
-const DonationCard = ({ image, alt, name, nominal, time, message }) => {
+interface DonationCardProps {
+	image: string;
+	alt: string;
+	name: string;
+	nominal: number;
+	time: number;
+	message?: string;
+}
+
+const DonationCard = ({
+	image,
+	alt,
+	name,
+	nominal,
+	time,
+	message,
+}: DonationCardProps) => {
 	return (
 		<>
 			<Box boxShadow="sm" p="6" rounded="md" bg="white" mb="5">

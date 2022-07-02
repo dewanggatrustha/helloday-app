@@ -11,7 +11,14 @@ import {
 } from "@chakra-ui/react";
 import { PhoneIcon } from "@chakra-ui/icons";
 
-const EmergencyCard = ({ name, image, alt, number }) => {
+interface EmergencyCardProps {
+	name: string;
+	image: string;
+	alt: string;
+	number: number;
+}
+
+const EmergencyCard = ({ name, image, alt, number }: EmergencyCardProps) => {
 	return (
 		<Flex
 			p="10px"
@@ -36,7 +43,7 @@ const EmergencyCard = ({ name, image, alt, number }) => {
 				</Heading>
 				<HStack mt="10px">
 					<IconButton
-						bg={useColorModeValue("primary.500")}
+						bg={useColorModeValue("primary.500", "black")}
 						color="white"
 						aria-label="Call Segun"
 						size="md"
