@@ -6,7 +6,7 @@ const donationData = [
 		alt: "profile-logo",
 		name: "Jonathan Wijaya",
 		nominal: "50.000",
-		time: "2",
+		time: 2,
 		message: "Semoga bisa membantu",
 	},
 	{
@@ -16,7 +16,7 @@ const donationData = [
 		alt: "profile-logo2",
 		name: "Anggyi Kusuma",
 		nominal: "300.000",
-		time: "5",
+		time: 5,
 		message: "Semoga tidak ada korban jiwa",
 	},
 	{
@@ -26,7 +26,7 @@ const donationData = [
 		alt: "profile-logo2",
 		name: "John Doe",
 		nominal: "160.000",
-		time: "14",
+		time: 14,
 		message: "Cuma sedikit namun saya harap bisa membantu teman-teman",
 	},
 ];

@@ -5,7 +5,7 @@ interface DonationCardProps {
 	image: string;
 	alt: string;
 	name: string;
-	nominal: number;
+	nominal: string;
 	time: number;
 	message?: string;
 }
