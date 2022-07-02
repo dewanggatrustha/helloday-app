@@ -1,5 +1,5 @@
 import React from "react";
-import FloatVolunteerCard from "../../../components/Cards/Volunteer/FloatVolunteerCard";
+import FloatVolunteerCard from "../../../components/Cards/FloatVolunteerCard";
 import {
   Box,
   Heading,
