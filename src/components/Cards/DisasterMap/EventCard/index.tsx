@@ -3,11 +3,11 @@ import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { MdOutlineDateRange } from "react-icons/md";
 
 interface EventCardProps {
-	children: React.ReactNode;
+	children?: React.ReactNode;
 	city: string;
 	date: string;
-	anotherTitle: string;
-	anotherDetail: string;
+	anotherTitle?: string;
+	anotherDetail?: string;
 }
 
 const EventCard = ({
