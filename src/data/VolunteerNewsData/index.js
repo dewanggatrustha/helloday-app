@@ -47,7 +47,7 @@ const VolunteerNewsData = [
 		title: "Earthquake Death Count Rises To 7 In Indonesia",
 		desc: "At least seven people were killed after a 6.0 magnitude quake struck off the coast of Indonesia's main Java island Saturday, as the country reels from a cyclone disaster in another part of the archipelago",
 		editor: "Kompas News",
-		link: "#",
+		link: "https://www.ndtv.com/world-news/earthquake-death-count-rises-to-7-in-indonesia-2411337",
 	},
 	{
 		id: 5,
