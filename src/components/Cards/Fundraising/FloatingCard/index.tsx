@@ -8,7 +8,7 @@ import {
 	Button,
 	Divider,
 } from "@chakra-ui/react";
-import MiniDonationCard from "../../MiniDonationCard";
+import MiniDonationCard from "../MiniDonationCard";
 import donationData from "../../../../data/DonationData";
 
 interface FloatingCardProps {
