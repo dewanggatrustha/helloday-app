@@ -1,4 +1,3 @@
-import "./App.css";
 import { Switch, Route } from "react-router-dom";
 import Weather from "./pages/Weather";
 import DisasterMap from "./pages/DisasterMap";
