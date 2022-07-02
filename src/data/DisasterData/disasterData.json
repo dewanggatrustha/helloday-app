@@ -3,22 +3,36 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Lincoln Park",
-				"description": "A northside park that is home to the Lincoln Park Zoo"
+				"location": "Yogyakarta, DIY",
+				"date": "3 July 2022",
+				"magnitudo": 5.2
 			},
 			"geometry": {
-				"coordinates": [-87.637596, 41.940403],
+				"coordinates": [110.37209025207628, -7.815753326415503],
 				"type": "Point"
 			}
 		},
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Burnham Park",
-				"description": "A lakefront park on Chicago's south side"
+				"location": "Cilacap, Central Java",
+				"date": "1 July 2022",
+				"magnitudo": 4.5
 			},
 			"geometry": {
-				"coordinates": [-87.603735, 41.829985],
+				"coordinates": [110.4229020149474, -7.005477226620234],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Disaster",
+			"properties": {
+				"location": "Pekalongan, Central Java",
+				"date": "28 June 2022",
+				"magnitudo": 3.7
+			},
+			"geometry": {
+				"coordinates": [109.66896532047299, -6.916871338532932],
 				"type": "Point"
 			}
 		}
@@ -27,22 +41,20 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Millennium Park",
-				"description": "A downtown park known for its art installations and unique architecture"
+				"location": "Garut, West Java"
 			},
 			"geometry": {
-				"coordinates": [-87.622554, 41.882534],
+				"coordinates": [107.94411191248867, -7.252121208833945],
 				"type": "Point"
 			}
 		},
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Grant Park",
-				"description": "A downtown park that is the site of many of Chicago's favorite festivals and events"
+				"location": "Purbalingga, Central Java"
 			},
 			"geometry": {
-				"coordinates": [-87.619185, 41.876367],
+				"coordinates": [109.3723344715631, -7.355644432527832],
 				"type": "Point"
 			}
 		}
@@ -51,22 +63,30 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Jackson Park",
-				"description": "A lakeside park that was the site of the 1893 World's Fair"
+				"location": "Bekasi, West Java"
 			},
 			"geometry": {
-				"coordinates": [-87.580389, 41.783185],
+				"coordinates": [107.09816457248694, -6.303001221597259],
 				"type": "Point"
 			}
 		},
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Columbus Park",
-				"description": "A large park in Chicago's Austin neighborhood"
+				"location": "North Jakarta, DKI Jakarta"
 			},
 			"geometry": {
-				"coordinates": [-87.769775, 41.873683],
+				"coordinates": [106.8894243523145, -6.144638446376632],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Disaster",
+			"properties": {
+				"location": "Tangerang, Banten"
+			},
+			"geometry": {
+				"coordinates": [106.65871147738709, -6.156926915488589],
 				"type": "Point"
 			}
 		}
@@ -75,11 +95,20 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Lincoln Parkl",
-				"description": "A northside park that is home to the Lincoln Park Zoo"
+				"location": "Boyolali, Central Java"
 			},
 			"geometry": {
-				"coordinates": [-90.637596, 45.940403],
+				"coordinates": [110.59186007625448, -7.503075649766088],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Disaster",
+			"properties": {
+				"location": "Malang, East Java"
+			},
+			"geometry": {
+				"coordinates": [112.64728533715504, -7.915465189952061],
 				"type": "Point"
 			}
 		}
@@ -88,22 +117,10 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Douglas Park",
-				"description": "A large park near in Chicago's North Lawndale neighborhood"
+				"location": "Kuningan, West Java"
 			},
 			"geometry": {
 				"coordinates": [-87.699329, 41.860092],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Disaster",
-			"properties": {
-				"title": "Calumet Park",
-				"description": "A park on the Illinois-Indiana border featuring a historic fieldhouse"
-			},
-			"geometry": {
-				"coordinates": [-87.530221, 41.715515],
 				"type": "Point"
 			}
 		}
@@ -112,11 +129,20 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"title": "Humboldt Park",
-				"description": "A large park on Chicago's northwest side"
+				"location": "Pangandaran, West Java"
 			},
 			"geometry": {
-				"coordinates": [-87.70199, 41.905423],
+				"coordinates": [108.65375517490888, -7.711384097921142],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Disaster",
+			"properties": {
+				"location": "Cilegon, Banten"
+			},
+			"geometry": {
+				"coordinates": [106.00621248613895, -5.968874985691896],
 				"type": "Point"
 			}
 		}
