@@ -5,7 +5,7 @@
 			"properties": {
 				"location": "Yogyakarta, DIY",
 				"date": "3 July 2022",
-				"magnitudo": 5.2
+				"magnitudo": "5.2"
 			},
 			"geometry": {
 				"coordinates": [110.37209025207628, -7.815753326415503],
@@ -17,7 +17,7 @@
 			"properties": {
 				"location": "Cilacap, Central Java",
 				"date": "1 July 2022",
-				"magnitudo": 4.5
+				"magnitudo": "4.5"
 			},
 			"geometry": {
 				"coordinates": [110.4229020149474, -7.005477226620234],
@@ -29,7 +29,7 @@
 			"properties": {
 				"location": "Pekalongan, Central Java",
 				"date": "28 June 2022",
-				"magnitudo": 3.7
+				"magnitudo": "3.7"
 			},
 			"geometry": {
 				"coordinates": [109.66896532047299, -6.916871338532932],
@@ -41,7 +41,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Garut, West Java"
+				"location": "Garut, West Java",
+				"date": "27 June 2022"
 			},
 			"geometry": {
 				"coordinates": [107.94411191248867, -7.252121208833945],
@@ -51,7 +52,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Purbalingga, Central Java"
+				"location": "Purbalingga, Central Java",
+				"date": "24 June 2022"
 			},
 			"geometry": {
 				"coordinates": [109.3723344715631, -7.355644432527832],
@@ -63,7 +65,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Bekasi, West Java"
+				"location": "Bekasi, West Java",
+				"date": "22 June 2022"
 			},
 			"geometry": {
 				"coordinates": [107.09816457248694, -6.303001221597259],
@@ -73,7 +76,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "North Jakarta, DKI Jakarta"
+				"location": "North Jakarta, DKI Jakarta",
+				"date": "21 June 2022"
 			},
 			"geometry": {
 				"coordinates": [106.8894243523145, -6.144638446376632],
@@ -83,7 +87,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Tangerang, Banten"
+				"location": "Tangerang, Banten",
+				"date": "15 May 2022"
 			},
 			"geometry": {
 				"coordinates": [106.65871147738709, -6.156926915488589],
@@ -95,7 +100,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Boyolali, Central Java"
+				"location": "Boyolali, Central Java",
+				"date": "10 May 2022"
 			},
 			"geometry": {
 				"coordinates": [110.59186007625448, -7.503075649766088],
@@ -105,7 +111,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Malang, East Java"
+				"location": "Malang, East Java",
+				"date": "4 May 2022"
 			},
 			"geometry": {
 				"coordinates": [112.64728533715504, -7.915465189952061],
@@ -117,7 +124,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Kuningan, West Java"
+				"location": "Kuningan, West Java",
+				"date": "1 May 2022"
 			},
 			"geometry": {
 				"coordinates": [-87.699329, 41.860092],
@@ -129,7 +137,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Pangandaran, West Java"
+				"location": "Pangandaran, West Java",
+				"date": "24 April 2022"
 			},
 			"geometry": {
 				"coordinates": [108.65375517490888, -7.711384097921142],
@@ -139,7 +148,8 @@
 		{
 			"type": "Disaster",
 			"properties": {
-				"location": "Cilegon, Banten"
+				"location": "Cilegon, Banten",
+				"date": "15 April 2022"
 			},
 			"geometry": {
 				"coordinates": [106.00621248613895, -5.968874985691896],
