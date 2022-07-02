@@ -2,7 +2,12 @@ import React from "react";
 import { Link, useColorModeValue } from "@chakra-ui/react";
 import { Link as RouteLink } from "react-router-dom";
 
-const NavLink = ({ name, to }) => {
+interface NavLinkProps {
+	name: string;
+	to: string;
+}
+
+const NavLink = ({ name, to }: NavLinkProps) => {
 	return (
 		<Link
 			as={RouteLink}
