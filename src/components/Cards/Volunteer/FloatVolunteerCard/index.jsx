@@ -1,11 +1,15 @@
 import React from "react";
-import MiniVolunteerCard from "../MiniVolunteerCard";
+import {
+  FaMapMarkerAlt,
+  FaRegCalendarAlt,
+  FaExclamationTriangle,
+} from "react-icons/fa";
 import {
   Box,
   useColorModeValue,
   HStack,
   Text,
-  Progress,
+  ButtonGroup,
   VStack,
   Button,
   Divider,
@@ -23,24 +27,77 @@ const FloatVolunteerCard = () => {
       align="left"
     >
       <VStack align="left">
-        <Text fontWeight="bold" fontSize="xl">
+        <Text fontWeight="bold" fontSize="xl" mb="5">
           Be a Volunteer for the Victims of the Mount Semeru Eruption.
         </Text>
-        <Text fontWeight="medium" fontSize="md">
-          East Java, Indonesia
-        </Text>
-        <Progress colorScheme="green" size="sm" value={55.5} />
-        <Text fontSize="md">320 peoples has joined</Text>
-        <HStack>
-          <Button w="30%" colorScheme="yellow" variant="outline">
+        <Box pb="5">
+          <HStack>
+            <FaMapMarkerAlt />
+            <Text fontWeight="medium" fontSize="md">
+              Location
+            </Text>
+          </HStack>
+          <Text>East Java, Indonesia</Text>
+        </Box>
+
+        <Box pb="5">
+          <HStack>
+            <FaRegCalendarAlt />
+            <Text fontWeight="medium" fontSize="md">
+              Project Timeline
+            </Text>
+          </HStack>
+          <Text>Start: September 2022</Text>
+          <Text>Ends: December 2022</Text>
+        </Box>
+
+        <Box pb="5">
+          <HStack>
+            <FaExclamationTriangle />
+            <Text fontWeight="medium" fontSize="md">
+              Registration Deadline
+            </Text>
+          </HStack>
+          <Text>July 31st, 2022</Text>
+        </Box>
+
+        <Box pb="5">
+          <Button
+            w="100%"
+            mb="2"
+            h="40px"
+            colorScheme="yellow"
+            variant="outline"
+          >
             Share
           </Button>
-          <Button w="70%" colorScheme="yellow" color="white">
+          <Button w="100%" h="42px" colorScheme="yellow" color="white">
             Join Now
           </Button>
-        </HStack>
+        </Box>
+
         <Divider orientation="horizontal" />
-        <MiniVolunteerCard />
+
+        <Box pt="5">
+          <Text fontWeight="medium" fontSize="md">
+            AREA OF ISSUE
+          </Text>
+          <ButtonGroup spacing="3" mt="2">
+            <Button>Disaster Response & Recovery</Button>
+            <Button>Eruption</Button>
+          </ButtonGroup>
+        </Box>
+
+        <Box pb="5" pt="5">
+          <Text fontWeight="medium" fontSize="md">
+            TAGS
+          </Text>
+          <ButtonGroup spacing="3" mt="2">
+            <Button>Disaster</Button>
+            <Button>Eruption</Button>
+            <Button>Volcano</Button>
+          </ButtonGroup>
+        </Box>
       </VStack>
     </Box>
   );
