@@ -1,5 +1,5 @@
 import React from "react";
-import FloatVolunteerCard from "../../../components/Cards/FloatVolunteerCard";
+import FloatVolunteerCard from "../../../components/Cards/Volunteer/FloatVolunteerCard";
 import {
   Box,
   Heading,
@@ -12,8 +12,8 @@ import {
   Text,
   StackDivider,
   Button,
+  ButtonGroup,
 } from "@chakra-ui/react";
-import volunteerData from "../../../data/VolunteerData";
 
 const VolunteerContent = () => {
   return (
@@ -31,13 +31,13 @@ const VolunteerContent = () => {
           />
           <VStack align="left">
             <Heading as="h4" size="xl">
-              Volunteer
+              Be a Volunteer for the Victims of the Mount Semeru Eruption
             </Heading>
           </VStack>
         </Stack>
 
         <Stack direction={["column", "row"]} spacing="24px" mt="10">
-          <Box w="65%" h="40px">
+          <Box w="70%" h="40px">
             <VStack
               divider={<StackDivider borderColor="gray.200" />}
               spacing={4}
@@ -48,21 +48,40 @@ const VolunteerContent = () => {
                 alt="articleimg"
                 borderRadius="10"
               />
-              <VStack align="left">
-                <Heading as="h6" size="md" mb="5">
+              <VStack align="left" spacing="5">
+                <Heading as="h6" size="md">
                   Information
                 </Heading>
                 <Text>
+                  Korban erupsi gunung Semeru saat ini masih begitu berduka.
+                  Masih membutuhkan kepedulian dari seluruh lapisan masyarakat
+                  dengan kesulitan yang dialami. Semua pihak pun bahu membahu
+                  membantu para korban erupsi Semeru, termasuk Asar Humanity.
                   Asar Humanity yang berkolaborasi dengan mitra Sebar Berkah,
                   telah mendistribusikan kurma sebanyak 8 dus untuk para
-                  pengungsi semeru pada Minggu (12/12). Dengan tajuk program
-                  “Bantuan Kemanusiaan Erupsi Gunung Semeru”. Hal tersebut pun
-                  direspon baik oleh masyarakat terdampak erupsi. Erupsi gunung
-                  Semeru yang terjadi beberapa waktu lalu berdampak hebat pada
-                  kehidupan masyarakat di sana. Banyak penduduk harus meregang
-                  nyawa karena tak sempat menyelamatkan diri, banyak pula dari
-                  para pengungsi yang kehilangan harta bendanya. Sebagian lagi
-                  berbondong-bondong menunju tempat yang lebih aman.
+                  pengungsi semeru pada Minggu (12/12).
+                </Text>
+                <Text>
+                  Dengan tajuk program “Bantuan Kemanusiaan Erupsi Gunung
+                  Semeru”. Hal tersebut pun direspon baik oleh masyarakat
+                  terdampak erupsi. Erupsi gunung Semeru yang terjadi beberapa
+                  waktu lalu berdampak hebat pada kehidupan masyarakat di sana.
+                  Banyak penduduk harus meregang nyawa karena tak sempat
+                  menyelamatkan diri, banyak pula dari para pengungsi yang
+                  kehilangan harta bendanya. Sebagian lagi berbondong-bondong
+                  menunju tempat yang lebih aman. Bantuan masih terus diberikan
+                  oleh seluruh lapisan masyarakat Indonesia kepada para
+                  pengungsi yang sedang tak berdaya. Mulai dari bantuan dana,
+                  pangan, pakaian hingga berbagai bentuk bantuan lainnya.
+                </Text>
+                <Text>
+                  Turut berduka atas kejadian erupsi Gunung Semeru yang memakan
+                  banyak korban jiwa, tiada henti-hentinya kami mengajak Sahabat
+                  ASAR dimanapun anda berada, untuk terus mendoakan para
+                  pengungsi, dan berbagai pihak yang terlibat dalam kebencanaan
+                  semeru. Yuk bersama-sama meringankan beban para pengungsi
+                  semeru dengan memberikan bantuan terbaikmu melalui ASAR
+                  Humanity dengan menjadi relawan.
                 </Text>
               </VStack>
               <VStack align="left">
@@ -83,6 +102,25 @@ const VolunteerContent = () => {
                   </VStack>
                 </HStack>
               </VStack>
+
+              <Box pt="5" mb="10">
+                <Text fontWeight="medium" fontSize="md">
+                  AREA OF ISSUE
+                </Text>
+                <ButtonGroup spacing="3" mt="2">
+                  <Button>Disaster Response & Recovery</Button>
+                  <Button>Eruption</Button>
+                </ButtonGroup>
+                <Text fontWeight="medium" fontSize="md" mt="5">
+                  TAGS
+                </Text>
+                <ButtonGroup spacing="3" mt="2">
+                  <Button>Disaster</Button>
+                  <Button>Eruption</Button>
+                  <Button>Volcano</Button>
+                </ButtonGroup>
+              </Box>
+
               <HStack mb="10" mt="5">
                 <Button w="30%" colorScheme="yellow" variant="outline">
                   Share
@@ -93,7 +131,7 @@ const VolunteerContent = () => {
               </HStack>
             </VStack>
           </Box>
-          <Box w="35%" h="40px">
+          <Box w="30%" h="40px">
             <FloatVolunteerCard />
           </Box>
         </Stack>
