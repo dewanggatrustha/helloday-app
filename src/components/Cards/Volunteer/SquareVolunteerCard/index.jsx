@@ -31,7 +31,7 @@ const SquareVolunteerCard = ({
       p="5"
       mb="2"
     >
-      <Box>
+      <Box >
         <VStack>
           <Image
             w="300px"
@@ -42,7 +42,7 @@ const SquareVolunteerCard = ({
             borderRadius="base"
           />
         </VStack>
-        <HStack spacing="24px" mt="5">
+        <HStack spacing="24px" mt="2">
           <VStack spacing="5px">
             <Box w="100%">
               <LinkOverlay href={link} fontWeight="bold" fontSize={14} mb="3">
@@ -58,7 +58,7 @@ const SquareVolunteerCard = ({
                         <Image w={7} h={7}src="http://logistik.bnpb.go.id/inalogpb/assets/img/Logo%20bnpb-01.png"/>
                     </GridItem>
                     <GridItem colStart={2} colEnd={6}>
-                        <Text>BNPB DAERAH</Text>
+                        <Text>{koordinator}</Text>
                     </GridItem>
                 </Grid>   
               <HStack mt="2" fontSize={12}>
