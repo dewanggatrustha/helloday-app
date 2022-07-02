@@ -64,14 +64,14 @@ const VolunteerNewsData = [
 	{
 		id: 6,
 		imageUrl:
-			"https://disk.mediaindonesia.com/thumbs/1800x1200/news/2021/04/0b20bc6c7b8dab5c99cb1d4e46f00f38.jpeg",
+			"https://c.ndtvimg.com/2020-01/5beph2v4_jakarta-floodreuters_625x300_04_January_20.jpg",
 		imageAlt: "news card",
 		imageBy:
 			"https://upload.wikimedia.org/wikipedia/commons/5/57/UNICEF_Logo.png",
-		title: "Help our friend on Nusa Tenggara Timur",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+		title: "60 Dead, Over 1 Lakh Displaced In Indonesia Floods",
+		desc: "Indonesian rescue teams flew helicopters stuffed with food to remote flood-hit communities on Saturday as the death toll from the disaster jumped to 60 and fears grew about the possibility of more torrential rain.",
 		editor: "Kompas News",
-		link: "#",
+		link: "https://www.ndtv.com/world-news/in-indonesias-jakarta-53-dead-over-1-lakh-displaced-due-to-flood-2158629",
 	},
 ];
 
