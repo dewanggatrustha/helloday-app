@@ -16,6 +16,8 @@ import { InfoIcon } from "@chakra-ui/icons";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SquareVolunteerCard from "../../components/Cards/Volunteer/SquareVolunteerCard";
 import VolunteerContentData from "../../data/VolunteerContentData";
+import SquareNewsCard from "../../components/Cards/Volunteer/SquareNewsCard";
+import VolunteerNewsData from "../../data/VolunteerNewsData";
 
 const Volunteer = () => {
   return (
@@ -168,17 +170,15 @@ const Volunteer = () => {
               onSlideChange={() => console.log("slide change")}
               onSwiper={(swiper) => console.log(swiper)}
             >
-              {VolunteerContentData.map((funddata) => {
+              {VolunteerNewsData.map((funddata) => {
                 return (
                   <SwiperSlide>
-                    <SquareVolunteerCard
+                    <SquareNewsCard
                       imageUrl={funddata.imageUrl}
                       imageAlt={funddata.imageAlt}
                       title={funddata.title}
                       desc={funddata.desc}
-                      progress={funddata.progress}
-                      achieved={funddata.achieved}
-                      target={funddata.target}
+                      editor={funddata.editor}
                       link={funddata.link}
                     />
                   </SwiperSlide>
