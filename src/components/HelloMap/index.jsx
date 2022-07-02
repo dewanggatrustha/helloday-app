@@ -5,6 +5,7 @@ import mapboxgl from "mapbox-gl";
 import geoJson from "../../data/DisasterData/disasterData.json";
 import Marker from "./Marker";
 
+// Cant store access token in the env, mapBox problem
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_KEY;
 
 const Map = () => {
