@@ -64,7 +64,7 @@ const Volunteer = () => {
 								<GridItem mt={2} colStart={2} colEnd={4}>
 									<Text fontSize="3xl">Volunteer</Text>
 									<Text fontSize="4xl" fontWeight="700">
-										123,456
+										123,567
 									</Text>
 								</GridItem>
 							</Grid>
