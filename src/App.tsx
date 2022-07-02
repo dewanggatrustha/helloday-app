@@ -3,6 +3,7 @@ import Weather from "./pages/Weather";
 import DisasterMap from "./pages/DisasterMap";
 import Fundraising from "./pages/Fundraising";
 import Volunteer from "./pages/Volunteer";
+import VolunteerContent from "./pages/Volunteer/VolunteerContent";
 import WhatToDo from "./pages/WhatToDo";
 import Navbar from "./components/Navbar";
 
@@ -16,6 +17,9 @@ export default function App() {
 				</Route>
 				<Route path="/volunteer">
 					<Volunteer />
+				</Route>
+				<Route path="/register">
+					<VolunteerContent />
 				</Route>
 				<Route path="/fundraising">
 					<Fundraising />

@@ -19,6 +19,7 @@ import VolunteerContentData from "../../data/VolunteerContentData";
 import SquareNewsCard from "../../components/Cards/Volunteer/SquareNewsCard";
 import VolunteerNewsData from "../../data/VolunteerNewsData";
 
+
 const Volunteer = () => {
   return (
     <>

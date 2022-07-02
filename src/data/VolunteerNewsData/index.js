@@ -10,7 +10,7 @@ const VolunteerNewsData = [
 			"Indonesia's Merapi Spews Out Volcanic Lava And Ash, Hundreds Evacuate",
 		desc: "Indonesia's Merapi volcano erupted overnight, sending hot lava and ash down its slopes and prompting over 250 residents in the surrounding area to evacuate, the country's disaster mitigation agency (BNPB) said on Thursday.",
 		editor: "Kompas News",
-		link: "#",
+		link: "https://www.ndtv.com/world-news/indonesias-merapi-spews-out-volcanic-lava-and-ash-hundreds-evacuate-2814237",
 	},
 	{
 		id: 2,
@@ -23,7 +23,7 @@ const VolunteerNewsData = [
 			"No Warning: Indonesian Village Caught In Volcano Disaster That Killed 34",
 		desc: "In the wake of the deadly Semeru eruption on Indonesia's Java island, the entwined bodies of a mother and daughter encased in molten ash have come to symbolise what many living in the shadow of the volcano feel went wrong.",
 		editor: "Kompas News",
-		link: "#",
+		link: "https://www.ndtv.com/world-news/no-warning-indonesian-village-caught-in-volcano-disaster-that-killed-34-2645379",
 	},
 	{
 		id: 3,
@@ -35,7 +35,7 @@ const VolunteerNewsData = [
 		title: "At Least 8 Killed, 3 Still Missing In Flash Floods In Indonesia",
 		desc: "Indonesian rescuers scrambled Friday to find survivors under mud-swamped hillsides after flash floods on Java island killed at least eight people, the disaster agency said.",
 		editor: "Kompas News",
-		link: "#",
+		link: "https://www.ndtv.com/world-news/at-least-8-killed-3-still-missing-in-flash-floods-in-indonesia-2600056",
 	},
 	{
 		id: 4,

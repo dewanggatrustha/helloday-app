@@ -20,7 +20,7 @@ const SquareNewsCard = ({
 	link,
 }) => {
 	return (
-		<LinkBox
+		<LinkBox to={link}
 			boxSize="350px"
 			overflow="hidden"
 			align="left"
