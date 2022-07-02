@@ -2,7 +2,20 @@ import React from "react";
 import { Box, Flex, Heading, Text } from "@chakra-ui/react";
 import { MdOutlineDateRange } from "react-icons/md";
 
-const EventCard = ({ children, city, date, anotherTitle, anotherDetail }) => {
+interface EventCardProps {
+	city: string;
+	date: string;
+	anotherTitle: string;
+	anotherDetail: string;
+}
+
+const EventCard = ({
+	children,
+	city,
+	date,
+	anotherTitle,
+	anotherDetail,
+}: EventCardProps) => {
 	return (
 		<Flex
 			bg="white"
