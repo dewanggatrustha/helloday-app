@@ -23,6 +23,9 @@ const SquareVolunteerCard = ({
 }) => {
 	return (
 		<LinkBox
+			border="1px"
+			borderColor="gray.100"
+			borderRadius="10px"
 			boxSize="350px"
 			overflow="hidden"
 			align="left"
@@ -72,6 +75,7 @@ const SquareVolunteerCard = ({
 						</Box>
 						<Link to="/register">
 							<Box
+								boxShadow="xl"
 								as="button"
 								borderRadius="md"
 								bg="#F4CC3E"
@@ -79,7 +83,7 @@ const SquareVolunteerCard = ({
 								px={4}
 								h={8}
 							>
-								Bergabung Jadi relawan
+								Bergabung Jadi Relawan
 							</Box>
 						</Link>
 					</VStack>

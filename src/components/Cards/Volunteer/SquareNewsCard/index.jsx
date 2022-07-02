@@ -11,16 +11,13 @@ import {
 	GridItem,
 } from "@chakra-ui/react";
 
-const SquareNewsCard = ({
-	imageAlt,
-	imageUrl,
-	title,
-	desc,
-	editor,
-	link,
-}) => {
+const SquareNewsCard = ({ imageAlt, imageUrl, title, desc, editor, link }) => {
 	return (
-		<LinkBox to={link}
+		<LinkBox
+			to={link}
+			border="1px"
+			borderColor="gray.100"
+			borderRadius="10px"
 			boxSize="350px"
 			overflow="hidden"
 			align="left"
