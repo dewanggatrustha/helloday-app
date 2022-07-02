@@ -52,14 +52,15 @@ const VolunteerNewsData = [
 	{
 		id: 5,
 		imageUrl:
-			"https://awsimages.detik.net.id/community/media/visual/2021/01/23/potret-kalimantan-selatan-setelah-sepekan-dilanda-banjir-besar-2_169.jpeg?w=700&q=90",
+			"https://c.ndtvimg.com/2019-12/j6gbhbjo_15th-anniversary-tsunami-2004-reuters_625x300_26_December_19.jpg",
 		imageAlt: "news card",
 		imageBy:
 			"https://upload.wikimedia.org/wikipedia/commons/5/57/UNICEF_Logo.png",
-		title: "Help our friend on South Kalimantan",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+		title:
+			"'Tsunami 2004 Still Haunts Me': Asia Remembers Disaster That Killed 230,000",
+		desc: "Communities across Asia commemorated the more than 230,000 victims of the Indian Ocean tsunami on Thursday, the 15th anniversary of one of the world's most deadly disasters. On the morning after Christmas Day in 2004",
 		editor: "Kompas News",
-		link: "#",
+		link: "https://www.ndtv.com/world-news/asia-remembers-15th-anniversary-of-2004-tsunami-one-of-the-deadly-disasters-that-killed-230-000-vict-2154617",
 	},
 	{
 		id: 6,
