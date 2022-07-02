@@ -5,6 +5,7 @@ import {
 	Heading,
 	Divider,
 	Stack,
+	HStack,
 	VStack,
 	useColorModeValue,
 	Grid,
@@ -12,6 +13,9 @@ import {
 	Image,
 } from "@chakra-ui/react";
 import { InfoIcon } from "@chakra-ui/icons";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SquareVolunteerCard from "../../components/Cards/Volunteer/SquareVolunteerCard";
+import VolunteerContentData from "../../data/VolunteerContentData";
 
 const Volunteer = () => {
 	return (
@@ -43,7 +47,7 @@ const Volunteer = () => {
 							height="360px"
 							width="100%"
 							objectFit="Cover"
-							src="https://erelawan.baliprov.go.id/frontpage/assets/img/img-0169.jpg"
+							src="https://www.indorelawan.org/blog/wp-content/uploads/2018/07/494296_620.jpg"
 							alt="Volunteer"
 						/>
 					</GridItem>
@@ -125,6 +129,37 @@ const Volunteer = () => {
 						</Heading>
 					</VStack>
 				</Stack>
+				<Box overflowY="auto" width="100%" mt="10">
+          <Heading as="h5" size="lg" fontWeight="600">
+            Urgent Volunteer
+          </Heading>
+          <Text mt="2">Helping Today, Helping Tomorrow, Let’s join to be Volunteer!</Text>
+          <HStack align="left" mt="5">
+            <Swiper
+              spaceBetween={50}
+              slidesPerView={4}
+              onSlideChange={() => console.log("slide change")}
+              onSwiper={(swiper) => console.log(swiper)}
+            >
+              {VolunteerContentData.map((funddata) => {
+                return (
+                  <SwiperSlide>
+                    <SquareVolunteerCard
+                      imageUrl={funddata.imageUrl}
+                      imageAlt={funddata.imageAlt}
+                      title={funddata.title}
+                      desc={funddata.desc}
+                      progress={funddata.progress}
+                      achieved={funddata.achieved}
+                      target={funddata.target}
+                      link={funddata.link}
+                    />
+                  </SwiperSlide>
+                );
+              })}
+            </Swiper>
+          </HStack>
+        </Box>
 			</Box>
 		</>
 	);
