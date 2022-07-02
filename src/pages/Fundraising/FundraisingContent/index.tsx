@@ -1,6 +1,6 @@
 import React from "react";
-import FloatingCard from "../../../components/Cards/FloatingCard";
-import DonationCard from "../../../components/Cards/DonationCard";
+import FloatingCard from "../../../components/Cards/Fundraising/FloatingCard";
+import DonationCard from "../../../components/Cards/Fundraising/DonationCard";
 import {
 	Box,
 	Heading,
@@ -102,7 +102,7 @@ const FundraisingContent = () => {
 										/>
 									);
 								})}
-								<Box align="center">
+								<Box alignContent="center">
 									<Button
 										colorScheme="yellow"
 										variant="outline"
@@ -124,7 +124,11 @@ const FundraisingContent = () => {
 						</VStack>
 					</Box>
 					<Box w="35%" h="40px">
-						<FloatingCard />
+						<FloatingCard
+							totalRaised="Rp 10.800.000"
+							maxRaised="Rp 18.000.000"
+							totalPeopleDonation="10.9K donations"
+						/>
 					</Box>
 				</Stack>
 			</Box>
