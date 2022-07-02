@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Flex, Heading, Text, Image } from "@chakra-ui/react";
 
 const UVIndexCard = () => {
 	return (
@@ -18,7 +18,7 @@ const UVIndexCard = () => {
 				</Heading>
 				<Text fontWeight="500">Today UV Index</Text>
 				<Heading as="h5" fontSize="2xl" fontWeight="600">
-					8
+					8.9
 				</Heading>
 			</Flex>
 			<Flex></Flex>
