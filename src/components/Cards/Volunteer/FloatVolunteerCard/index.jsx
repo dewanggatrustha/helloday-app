@@ -28,7 +28,7 @@ const FloatVolunteerCard = () => {
     >
       <VStack align="left">
         <Text fontWeight="bold" fontSize="xl" mb="5">
-          Be a Volunteer for the Victims of the Mount Semeru Eruption.
+          Be a Volunteer for the Victims of the Mount Semeru Eruption
         </Text>
         <Box pb="5">
           <HStack>
