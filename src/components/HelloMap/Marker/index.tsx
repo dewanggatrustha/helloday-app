@@ -2,13 +2,14 @@ import React from "react";
 import { Box, Text, Button } from "@chakra-ui/react";
 import { RiMapPin2Fill } from "react-icons/ri";
 
-const Marker = ({ onClick, children, color }) => {
+interface MarkerProps {
+	children: string;
+	color: string;
+}
+
+const Marker = ({ children, color }: MarkerProps) => {
 	return (
-		<Button
-			onClick={onClick}
-			className="marker"
-			leftIcon={<RiMapPin2Fill color={color} size="35px" />}
-		>
+		<Button leftIcon={<RiMapPin2Fill color={color} size="35px" />}>
 			{children}
 		</Button>
 	);
