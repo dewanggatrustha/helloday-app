@@ -6,7 +6,9 @@ import geoJson from "../../data/DisasterData/disasterData.json";
 import Marker from "./Marker";
 
 // Cant store access token in the env, mapBox problem
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_KEY;
+
+mapboxgl.accessToken =
+	"pk.eyJ1IjoiZGV3YW5nZ2F0cnVzdGhhIiwiYSI6ImNsNGt6YWxyaDB6MGgzaXBnMDdsb3k5cXgifQ.VitS96lc11n0o8ODxsOR-w";
 
 const Map = () => {
 	const mapContainerRef = useRef(null);
@@ -16,8 +18,8 @@ const Map = () => {
 		const map = new mapboxgl.Map({
 			container: mapContainerRef.current,
 			style: "mapbox://styles/mapbox/streets-v11",
-			center: [-87.65, 41.84],
-			zoom: 5,
+			center: [108, -7], //-7.101220817764837, 108.72002120771089
+			zoom: 7,
 		});
 
 		// Earthquake Marker
