@@ -187,6 +187,16 @@ const Volunteer = () => {
               })}
             </Swiper>
           </HStack>
+          <Box overflowY="auto" width="100%" mt="10" mb="10">
+            <Box m="5">
+              <Heading as="h5" size="lg" fontWeight="600" textAlign="center">
+                Testimonials
+              </Heading>
+              <Text mt="2" fontSize="md" textAlign="center">
+                Those who have followed Volunteers on HelloDay
+              </Text>
+            </Box>
+          </Box>
         </Box>
       </Box>
     </>
