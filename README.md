@@ -49,12 +49,12 @@ This project main goal is to reduce the number of victims of natural disasters b
     npm start
     ```
 
-- Open <http://localhost:3000> with your browser to see the result.
+- Open <http://localhost:3000> with your browser to see the result
 
 <br>
 ## Side Note
 
-- You're recommended to change the MapBox access token key to your own key if you want to use your own map style, get your own key at <a href="https://www.mapbox.com/">Mapbox</a>. Change the access token key at HelloDay Map
+- You're recommended to change the MapBox access token key to your own key if you want to use your own map style, get your own key at <a href="https://www.mapbox.com/">Mapbox</a>. Change the access token key at HelloDay Map Component
 
     ```bash
     mapboxgl.accessToken = "YourOwnAccessToken";
