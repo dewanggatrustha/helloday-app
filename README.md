@@ -1,5 +1,3 @@
-# HELLO DAY Disaster Management Web App
-
 ## About
 <br>
 <p align="center">
