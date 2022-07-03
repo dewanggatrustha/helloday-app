@@ -43,7 +43,7 @@ const Volunteer = () => {
 					Use your spare time by helping people on the go
 				</Heading>
 				<Grid templateColumns="repeat(3, 1fr)" mt="24px">
-					<GridItem colStart={1} colEnd={3} h="30px" w="100%" mr={5}>
+					<GridItem colStart={1} colEnd={3} h="30px" w="90%" mr={5}>
 						<Carousel />
 					</GridItem>
 					<GridItem w="100%" h="10">
