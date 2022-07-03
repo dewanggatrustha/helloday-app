@@ -17,7 +17,8 @@ This project main goal is to reduce the number of victims of natural disasters b
 
 ## Features
 * Disaster Map
-<img src="https://drive.google.com/file/d/1bGW0X7iccb8r7Q5ZKR6kHKOlC2oGIz14/view?usp=sharing"> 
+![DisasterMap](https://user-images.githubusercontent.com/62733500/177023880-b9021854-7476-436e-b462-33092b88d824.png)
+
 
 
 
