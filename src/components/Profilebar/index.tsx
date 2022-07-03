@@ -10,9 +10,7 @@ import {
 	MenuDivider,
 	useColorMode,
 	Text,
-	Box,
 } from "@chakra-ui/react";
-import { BellIcon } from "@chakra-ui/icons";
 import { BsSun, BsMoonStarsFill } from "react-icons/bs";
 
 interface ProfileBarType {
@@ -25,20 +23,6 @@ const ProfileBar = ({ name, avatarImg }: ProfileBarType) => {
 
 	return (
 		<>
-			<Menu>
-				<MenuButton as={Button} cursor={"pointer"} variant={"ghost"}>
-					<BellIcon />
-				</MenuButton>
-				<MenuList>
-					<MenuItem>
-						<Box>Notification 1</Box>
-					</MenuItem>
-					<MenuDivider />
-					<MenuItem>
-						<Box>Notification 1</Box>
-					</MenuItem>
-				</MenuList>
-			</Menu>
 			<Menu>
 				<MenuButton
 					as={Button}

@@ -15,6 +15,7 @@ import Logo from "../../logo.svg";
 import NavLink from "./NavLink";
 import NavData from "./NavData";
 import ProfileBar from "../Profilebar";
+import Notificationbar from "../Notificationbar";
 
 const Navbar = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -70,6 +71,7 @@ const Navbar = () => {
 						</HStack>
 					</HStack>
 					<Flex gap="2" alignItems={"center"}>
+						<Notificationbar />
 						<ProfileBar name="Username" />
 					</Flex>
 				</Flex>
