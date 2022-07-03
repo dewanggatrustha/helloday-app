@@ -32,7 +32,7 @@ const FundraisingContent = () => {
 					/>
 					<VStack align="left">
 						<Heading as="h4" size="xl">
-							Content Title
+							Fundraising for Flood that happened in Jakarta Timur
 						</Heading>
 					</VStack>
 				</Stack>
