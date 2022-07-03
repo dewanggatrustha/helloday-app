@@ -16,6 +16,7 @@ import NavLink from "./NavLink";
 import NavData from "./NavData";
 import ProfileBar from "../Profilebar";
 import Notificationbar from "../Notificationbar";
+import userData from "../../data/UserData";
 
 const Navbar = () => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -72,7 +73,10 @@ const Navbar = () => {
 					</HStack>
 					<Flex gap="2" alignItems={"center"}>
 						<Notificationbar />
-						<ProfileBar name="Username" />
+						<ProfileBar
+							name={userData[0].profile.name}
+							avatarImg={userData[0].profile.avatar}
+						/>
 					</Flex>
 				</Flex>
 			</Flex>

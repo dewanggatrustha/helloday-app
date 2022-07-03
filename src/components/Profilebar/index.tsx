@@ -12,6 +12,7 @@ import {
 	Text,
 } from "@chakra-ui/react";
 import { BsSun, BsMoonStarsFill } from "react-icons/bs";
+import { FiLogOut } from "react-icons/fi";
 
 interface ProfileBarType {
 	name: string;
@@ -45,7 +46,7 @@ const ProfileBar = ({ name, avatarImg }: ProfileBarType) => {
 						{colorMode === "light" ? "Dark Mode" : "Light Mode"}
 					</MenuItem>
 					<MenuDivider />
-					<MenuItem>Sign Out</MenuItem>
+					<MenuItem icon={<FiLogOut color="#E53E3E" />}>Sign Out</MenuItem>
 				</MenuList>
 			</Menu>
 		</>
