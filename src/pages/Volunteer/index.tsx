@@ -26,7 +26,7 @@ const Volunteer = () => {
 				m={{ base: "88px 12px 0px 12px", md: "88px 48px 0px 48px" }}
 				bg={useColorModeValue("white", "blue")}
 			>
-				<Stack direction="row" h="30px">
+				<Stack direction="row" h="30px" mb="14px">
 					<Divider
 						orientation="vertical"
 						borderWidth="4px"
@@ -37,12 +37,12 @@ const Volunteer = () => {
 						<Heading as="h4" size="xl">
 							Volunteers
 						</Heading>
-						<Heading as="h3" size="md" fontWeight="500">
-							If you have a spare few hours we would love your support
-						</Heading>
 					</VStack>
 				</Stack>
-				<Grid templateColumns="repeat(3, 1fr)" mt="75px">
+				<Heading as="h3" size="md" fontWeight="500">
+					Use your spare time by helping people on the go
+				</Heading>
+				<Grid templateColumns="repeat(3, 1fr)" mt="24px">
 					<GridItem colStart={1} colEnd={3} h="30px" w="1000px" mr={5}>
 						<Image
 							borderRadius="15px"
@@ -63,7 +63,11 @@ const Volunteer = () => {
 							px={4}
 							h={107}
 						>
-							<Grid boxShadow="xl" templateColumns="repeat(3,1fr)" h="100%">
+							<Grid
+								boxShadow="xl"
+								templateColumns="repeat(3,1fr)"
+								h="100%"
+							>
 								<GridItem h="100%">
 									<InfoIcon w={50} h="100%" />
 								</GridItem>
@@ -85,7 +89,11 @@ const Volunteer = () => {
 							px={4}
 							h={107}
 						>
-							<Grid boxShadow="xl" templateColumns="repeat(3,1fr)" h="100%">
+							<Grid
+								boxShadow="xl"
+								templateColumns="repeat(3,1fr)"
+								h="100%"
+							>
 								<GridItem h="100%">
 									<InfoIcon w={50} h="100%" />
 								</GridItem>
@@ -107,7 +115,11 @@ const Volunteer = () => {
 							px={4}
 							h={107}
 						>
-							<Grid boxShadow="xl" templateColumns="repeat(3,1fr)" h="100%">
+							<Grid
+								boxShadow="xl"
+								templateColumns="repeat(3,1fr)"
+								h="100%"
+							>
 								<GridItem h="100%">
 									<InfoIcon w={50} h="100%" />
 								</GridItem>

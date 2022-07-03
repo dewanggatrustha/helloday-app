@@ -66,14 +66,14 @@ const WhatToDo = () => {
 					</VStack>
 				</Stack>
 				<Heading as="h3" size="md" fontWeight="500">
-					Tips and step that you should do when a natural disaster strikes.
+					Tips and step that you should do when a natural disaster strikes
 				</Heading>
 				<Tabs
 					isFitted
 					variant="enclosed"
 					rounded="15"
 					boxShadow="xs"
-					mt="10px"
+					mt="24px"
 				>
 					<TabList>
 						<Tab>Instruction</Tab>

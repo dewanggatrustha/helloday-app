@@ -19,7 +19,7 @@ import ContentCard from "../../components/Cards/Fundraising/ContentCard";
 import SquareContentCard from "../../components/Cards/Fundraising/SquareContentCard";
 import FundraisingContentData from "../../data/FundraisingContentData";
 import "swiper/css";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Fundraising() {
 	const imageLI = [
@@ -35,7 +35,7 @@ function Fundraising() {
 				bg={useColorModeValue("white", "blue")}
 				pb="10"
 			>
-				<Stack direction="row" h="30px" mb="10px">
+				<Stack direction="row" h="30px" mb="14px">
 					<Divider
 						orientation="vertical"
 						borderWidth="4px"
@@ -48,11 +48,11 @@ function Fundraising() {
 						</Heading>
 					</VStack>
 				</Stack>
-				<Heading as="h3" size="md" fontWeight="500" mt="5" mb="5">
-					Help people around you
+				<Heading as="h3" size="md" fontWeight="500">
+					Help people around you who affected by natural disaster
 				</Heading>
 
-				<Flex>
+				<Flex mt="24px">
 					<Box w="50%">
 						<Carousel />
 					</Box>
@@ -63,16 +63,18 @@ function Fundraising() {
 						</Heading>
 						{FundraisingContentData.slice(0, 2).map((funddata) => {
 							return (
-								<ContentCard
-									imageUrl={funddata.imageUrl}
-									imageAlt={funddata.imageAlt}
-									title={funddata.title}
-									desc={funddata.desc}
-									progress={funddata.progress}
-									achieved={funddata.achieved}
-									target={funddata.target}
-									link={funddata.link}
-								/>
+								<Box mt="2px">
+									<ContentCard
+										imageUrl={funddata.imageUrl}
+										imageAlt={funddata.imageAlt}
+										title={funddata.title}
+										desc={funddata.desc}
+										progress={funddata.progress}
+										achieved={funddata.achieved}
+										target={funddata.target}
+										link={funddata.link}
+									/>
+								</Box>
 							);
 						})}
 					</Box>
