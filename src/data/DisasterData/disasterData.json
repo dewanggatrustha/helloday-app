@@ -1,160 +1,170 @@
 {
-	"earthquake": [
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Yogyakarta, DIY",
-				"date": "3 July 2022",
-				"magnitudo": "5.2"
-			},
-			"geometry": {
-				"coordinates": [110.37209025207628, -7.815753326415503],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Cilacap, Central Java",
-				"date": "1 July 2022",
-				"magnitudo": "4.5"
-			},
-			"geometry": {
-				"coordinates": [110.4229020149474, -7.005477226620234],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Pekalongan, Central Java",
-				"date": "28 June 2022",
-				"magnitudo": "3.7"
-			},
-			"geometry": {
-				"coordinates": [109.66896532047299, -6.916871338532932],
-				"type": "Point"
-			}
-		}
-	],
-	"fire": [
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Garut, West Java",
-				"date": "27 June 2022"
-			},
-			"geometry": {
-				"coordinates": [107.94411191248867, -7.252121208833945],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Purbalingga, Central Java",
-				"date": "24 June 2022"
-			},
-			"geometry": {
-				"coordinates": [109.3723344715631, -7.355644432527832],
-				"type": "Point"
-			}
-		}
-	],
-	"flood": [
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Bekasi, West Java",
-				"date": "22 June 2022"
-			},
-			"geometry": {
-				"coordinates": [107.09816457248694, -6.303001221597259],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "North Jakarta, DKI Jakarta",
-				"date": "21 June 2022"
-			},
-			"geometry": {
-				"coordinates": [106.8894243523145, -6.144638446376632],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Tangerang, Banten",
-				"date": "15 May 2022"
-			},
-			"geometry": {
-				"coordinates": [106.65871147738709, -6.156926915488589],
-				"type": "Point"
-			}
-		}
-	],
-	"landSlide": [
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Boyolali, Central Java",
-				"date": "10 May 2022"
-			},
-			"geometry": {
-				"coordinates": [110.59186007625448, -7.503075649766088],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Malang, East Java",
-				"date": "4 May 2022"
-			},
-			"geometry": {
-				"coordinates": [112.64728533715504, -7.915465189952061],
-				"type": "Point"
-			}
-		}
-	],
-	"tornado": [
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Kuningan, West Java",
-				"date": "1 May 2022"
-			},
-			"geometry": {
-				"coordinates": [-87.699329, 41.860092],
-				"type": "Point"
-			}
-		}
-	],
-	"tsunami": [
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Pangandaran, West Java",
-				"date": "24 April 2022"
-			},
-			"geometry": {
-				"coordinates": [108.65375517490888, -7.711384097921142],
-				"type": "Point"
-			}
-		},
-		{
-			"type": "Disaster",
-			"properties": {
-				"location": "Cilegon, Banten",
-				"date": "15 April 2022"
-			},
-			"geometry": {
-				"coordinates": [106.00621248613895, -5.968874985691896],
-				"type": "Point"
-			}
-		}
-	]
+  "earthquake": [
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Yogyakarta, DIY",
+        "date": "3 July 2022",
+        "magnitudo": "5.2 SR"
+      },
+      "geometry": {
+        "coordinates": [110.37209025207628, -7.815753326415503],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Cilacap, Central Java",
+        "date": "1 July 2022",
+        "magnitudo": "4.5 SR"
+      },
+      "geometry": {
+        "coordinates": [110.4229020149474, -7.005477226620234],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Pekalongan, Central Java",
+        "date": "28 June 2022",
+        "magnitudo": "3.7 SR"
+      },
+      "geometry": {
+        "coordinates": [109.66896532047299, -6.916871338532932],
+        "type": "Point"
+      }
+    }
+  ],
+  "fire": [
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Garut, West Java",
+        "date": "27 June 2022",
+        "area": "332,875 Ha"
+      },
+      "geometry": {
+        "coordinates": [107.94411191248867, -7.252121208833945],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Purbalingga, Central Java",
+        "date": "24 June 2022",
+        "area": "165,345 Ha"
+      },
+      "geometry": {
+        "coordinates": [109.3723344715631, -7.355644432527832],
+        "type": "Point"
+      }
+    }
+  ],
+  "flood": [
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Bekasi, West Java",
+        "date": "22 June 2022",
+        "tma": "520 cm (Standby 3)"
+      },
+      "geometry": {
+        "coordinates": [107.09816457248694, -6.303001221597259],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "North Jakarta, DKI Jakarta",
+        "date": "21 June 2022",
+        "tma": "765 cm (Standby 1)"
+      },
+      "geometry": {
+        "coordinates": [106.8894243523145, -6.144638446376632],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Tangerang, Banten",
+        "date": "15 May 2022",
+        "tma": "90 cm (Standby 4)"
+      },
+      "geometry": {
+        "coordinates": [106.65871147738709, -6.156926915488589],
+        "type": "Point"
+      }
+    }
+  ],
+  "landSlide": [
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Boyolali, Central Java",
+        "date": "10 May 2022",
+        "depthl": "12 m"
+      },
+      "geometry": {
+        "coordinates": [110.59186007625448, -7.503075649766088],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Malang, East Java",
+        "date": "4 May 2022",
+        "depthl": "10 m"
+      },
+      "geometry": {
+        "coordinates": [112.64728533715504, -7.915465189952061],
+        "type": "Point"
+      }
+    }
+  ],
+  "tornado": [
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Kuningan, West Java",
+        "date": "1 May 2022",
+        "fujita": "73-112 mil/hour (F-1)"
+      },
+      "geometry": {
+        "coordinates": [-87.699329, 41.860092],
+        "type": "Point"
+      }
+    }
+  ],
+  "tsunami": [
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Pangandaran, West Java",
+        "date": "24 April 2022",
+        "depth": "40 Km"
+      },
+      "geometry": {
+        "coordinates": [108.65375517490888, -7.711384097921142],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Disaster",
+      "properties": {
+        "location": "Cilegon, Banten",
+        "date": "15 April 2022",
+        "depth": "57 Km"
+      },
+      "geometry": {
+        "coordinates": [106.00621248613895, -5.968874985691896],
+        "type": "Point"
+      }
+    }
+  ]
 }
