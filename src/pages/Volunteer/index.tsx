@@ -49,7 +49,7 @@ const Volunteer = () => {
               height="360px"
               width="100%"
               objectFit="cover"
-              src="https://www.indorelawan.org/blog/wp-content/uploads/2018/07/494296_620.jpg"
+              src="https://i.ibb.co/DzCr69B/environment-volunteer-teamwork-concept.jpg"
               alt="Volunteer"
               pr="5"
             />
