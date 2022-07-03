@@ -15,8 +15,8 @@ import {
 } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Carousel from "../../components/Carousel";
-import ContentCard from "../../components/Cards/ContentCard";
-import SquareContentCard from "../../components/Cards/SquareContentCard";
+import ContentCard from "../../components/Cards/Fundraising/ContentCard";
+import SquareContentCard from "../../components/Cards/Fundraising/SquareContentCard";
 import FundraisingContentData from "../../data/FundraisingContentData";
 import "swiper/css";
 import { BrowserRouter as Router, Link } from "react-router-dom";
@@ -151,9 +151,9 @@ function Fundraising() {
 								reason why you should try volunteering, even if only
 								once in your life.
 							</Text>
-							<Link to="/register">
+							<Link to="/volunteer">
 								<Button colorScheme="yellow" color="white">
-									Register as a Volunteer
+									Join as a Volunteer
 								</Button>
 							</Link>
 						</Box>
