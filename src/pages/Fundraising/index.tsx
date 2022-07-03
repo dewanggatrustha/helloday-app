@@ -133,24 +133,26 @@ function Fundraising() {
 						<Box w="800px">
 							<Heading mb="5">Volunteer to Save the Planet</Heading>
 							<Text mb="2">
-								In life, of course, you have various activities that take up
-								your time. Whether it's studying, working, joining this
-								organization, local to international seminars, or even the
-								Olympics that promise your bright future. However, have you ever
-								felt an empty space in your heart? That empty space that even
-								your international achievements can't heal.
+								In life, of course, you have various activities that
+								take up your time. Whether it's studying, working,
+								joining this organization, local to international
+								seminars, or even the Olympics that promise your bright
+								future. However, have you ever felt an empty space in
+								your heart? That empty space that even your
+								international achievements can't heal.
 							</Text>
 							<Text mb="5">
-								Eventually, you realize that you are so focused on yourself that
-								you forget about other people around you. Your life should not
-								only be meaningful to you, but your life must also be meaningful
-								to others. If Barack Obama said, do good things, then you will
-								fill the world with hope, you will also fill yourself with hope.
-								This is the reason why you should try volunteering, even if only
+								Eventually, you realize that you are so focused on
+								yourself that you forget about other people around you.
+								Your life should not only be meaningful to you, but your
+								life must also be meaningful to others. If Barack Obama
+								said, do good things, then you will fill the world with
+								hope, you will also fill yourself with hope. This is the
+								reason why you should try volunteering, even if only
 								once in your life.
 							</Text>
 							<Link to="/register">
-								<Button colorScheme="yellow" color="white" href="/register">
+								<Button colorScheme="yellow" color="white">
 									Register as a Volunteer
 								</Button>
 							</Link>
