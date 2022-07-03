@@ -16,7 +16,7 @@ const TodayInfoCard = () => {
 		>
 			<Flex flexDirection="column" w="50%" justifyContent="space-between">
 				<HStack>
-					<RiMapPinLine />
+					<RiMapPinLine size="28px" />
 					<Heading as="h3" fontWeight="600" fontSize="xl">
 						Jakarta, Indonesia
 					</Heading>
@@ -34,15 +34,25 @@ const TodayInfoCard = () => {
 					<Text></Text>
 				</Flex>
 			</Flex>
-			<Flex
-				flexDirection="column"
-				rounded="15px"
-				bg="white"
-				w="50%"
-				p="24px"
-				opacity="50%"
-			>
-				<Text>Temperature</Text>
+
+			<Flex flexDirection="column" rounded="15px" w="50%">
+				<Box
+					position="absolute"
+					zIndex="1"
+					display="flex"
+					alignItems="center"
+					justifyContent="center"
+					textAlign="center"
+					filter="auto"
+					opacity="50%"
+					w="450px"
+					h="230px"
+					bg="white"
+					rounded="15px"
+				></Box>
+				<Flex zIndex="2" p="12px">
+					Test
+				</Flex>
 			</Flex>
 		</Flex>
 	);
