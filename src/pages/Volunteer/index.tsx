@@ -44,15 +44,7 @@ const Volunteer = () => {
 				</Heading>
 				<Grid templateColumns="repeat(3, 1fr)" mt="24px">
 					<GridItem colStart={1} colEnd={3} h="30px" w="100%" mr={5}>
-						<Image
-							borderRadius="15px"
-							height="360px"
-							width="100%"
-							objectFit="cover"
-							src="https://i.ibb.co/DzCr69B/environment-volunteer-teamwork-concept.jpg"
-							alt="Volunteer"
-							pr="5"
-						/>
+						<Carousel />
 					</GridItem>
 					<GridItem w="100%" h="10">
 						<Box
