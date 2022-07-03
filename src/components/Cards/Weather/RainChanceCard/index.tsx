@@ -1,7 +1,8 @@
 import React from "react";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Flex, Heading, Text, Image } from "@chakra-ui/react";
+import RainChanceIcon from "../../../../assets/weather/Card/RainChanceIcon.png";
 
-const WindCard = () => {
+const RainChanceCard = () => {
 	return (
 		<Flex
 			bg="white"
@@ -14,16 +15,18 @@ const WindCard = () => {
 		>
 			<Flex flexDirection="column" gap="4px">
 				<Heading as="h4" fontSize="2xl" fontWeight="600">
-					Wind Status
+					Rain Chance
 				</Heading>
-				<Text fontWeight="500">Today Wind Speed</Text>
+				<Text fontWeight="500">Today Rain Chance</Text>
 				<Heading as="h5" fontSize="2xl" fontWeight="600">
-					5 km/h
+					87%
 				</Heading>
 			</Flex>
-			<Flex></Flex>
+			<Flex>
+				<Image src={RainChanceIcon} />
+			</Flex>
 		</Flex>
 	);
 };
 
-export default WindCard;
+export default RainChanceCard;

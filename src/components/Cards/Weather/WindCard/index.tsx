@@ -1,7 +1,8 @@
 import React from "react";
 import { Flex, Heading, Text, Image } from "@chakra-ui/react";
+import WindIcon from "../../../../assets/weather/Card/WindSpeedIcon.png";
 
-const UVIndexCard = () => {
+const WindCard = () => {
 	return (
 		<Flex
 			bg="white"
@@ -14,16 +15,18 @@ const UVIndexCard = () => {
 		>
 			<Flex flexDirection="column" gap="4px">
 				<Heading as="h4" fontSize="2xl" fontWeight="600">
-					UV Index
+					Wind Status
 				</Heading>
-				<Text fontWeight="500">Today UV Index</Text>
+				<Text fontWeight="500">Today Wind Speed</Text>
 				<Heading as="h5" fontSize="2xl" fontWeight="600">
-					8.9
+					5 km/h
 				</Heading>
 			</Flex>
-			<Flex></Flex>
+			<Flex>
+				<Image src={WindIcon} />
+			</Flex>
 		</Flex>
 	);
 };
 
-export default UVIndexCard;
+export default WindCard;

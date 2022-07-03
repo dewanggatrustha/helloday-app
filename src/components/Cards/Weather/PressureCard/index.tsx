@@ -1,5 +1,6 @@
 import React from "react";
-import { Flex, Heading, Text } from "@chakra-ui/react";
+import { Flex, Heading, Text, Image } from "@chakra-ui/react";
+import PressureIcon from "../../../../assets/weather/Card/PressureIcon.png";
 
 const PressureCard = () => {
 	return (
@@ -21,7 +22,10 @@ const PressureCard = () => {
 					5 km/h
 				</Heading>
 			</Flex>
-			<Flex></Flex>
+			<Flex>
+				{" "}
+				<Image src={PressureIcon} />
+			</Flex>
 		</Flex>
 	);
 };
