@@ -13,7 +13,7 @@ import {
 import WindCard from "../../components/Cards/Weather/WindCard";
 import PressureCard from "../../components/Cards/Weather/PressureCard";
 import TodayInfoCard from "../../components/Cards/Weather/TodayInfoCard";
-import HumidityCard from "../../components/Cards/Weather/HumidityCard";
+import RainChanceCard from "../../components/Cards/Weather/RainChanceCard";
 import UVIndexCard from "../../components/Cards/Weather/UVIndexCard";
 import PredictionCard from "../../components/Cards/Weather/PredictionCard";
 
@@ -61,7 +61,7 @@ const Weather = () => {
 								<PressureCard />
 							</GridItem>
 							<GridItem>
-								<HumidityCard />
+								<RainChanceCard />
 							</GridItem>
 							<GridItem>
 								<UVIndexCard />
