@@ -76,10 +76,10 @@ const Weather = () => {
 							</GridItem>
 						</Grid>
 					</Flex>
-					<Center height="720px" ml="80px">
+					<Center height="720px" ml="60px">
 						<Divider orientation="vertical" />
 					</Center>
-					<Flex ml="40px">
+					<Flex ml="60px">
 						<PredictionCard />
 					</Flex>
 				</Flex>
