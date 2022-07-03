@@ -91,4 +91,10 @@ const FundraisingContentData = [
 	},
 ];
 
-export default FundraisingContentData;
+const inspirationImage = [
+	"https://www.indorelawan.org/blog/wp-content/uploads/2018/07/494296_620.jpg",
+	"https://sukabumiupdate.com/uploads/news/images/inline/200203174206-164.jpg",
+	"https://cdn.medcom.id/dynamic/content/2021/04/16/1266534/lujhY9mst1.jpg?w=480",
+];
+
+export { FundraisingContentData, inspirationImage };

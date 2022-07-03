@@ -1,4 +1,4 @@
-const slidesData = [
+const fundraisingSlides = [
 	{
 		img: "https://images.pexels.com/photos/2599537/pexels-photo-2599537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
 	},
@@ -10,4 +10,4 @@ const slidesData = [
 	},
 ];
 
-export default slidesData;
+export default fundraisingSlides;

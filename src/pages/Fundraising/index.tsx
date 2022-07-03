@@ -14,20 +14,17 @@ import {
 	Button,
 } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Carousel from "../../components/Carousel";
+import Carousel from "../../components/Cards/Fundraising/Carousel";
 import ContentCard from "../../components/Cards/Fundraising/ContentCard";
 import SquareContentCard from "../../components/Cards/Fundraising/SquareContentCard";
-import FundraisingContentData from "../../data/FundraisingContentData";
+import {
+	FundraisingContentData,
+	inspirationImage,
+} from "../../data/FundraisingContentData";
 import "swiper/css";
 import { Link } from "react-router-dom";
 
 function Fundraising() {
-	const imageLI = [
-		"https://www.indorelawan.org/blog/wp-content/uploads/2018/07/494296_620.jpg",
-		"https://sukabumiupdate.com/uploads/news/images/inline/200203174206-164.jpg",
-		"https://cdn.medcom.id/dynamic/content/2021/04/16/1266534/lujhY9mst1.jpg?w=480",
-	];
-
 	return (
 		<>
 			<Box
@@ -118,13 +115,22 @@ function Fundraising() {
 					</Heading>
 					<Flex justifyContent={"space-between"} mt="5">
 						<Flex gap="4">
-							<Image w="600px" h="350" rounded="5px" src={imageLI[0]} />
+							<Image
+								w="600px"
+								h="350"
+								rounded="5px"
+								src={inspirationImage[0]}
+							/>
 							<Flex gap="4" flexDirection="column" w="280px">
-								<Image src={imageLI[1]} w="100%" rounded="5px" />
+								<Image
+									src={inspirationImage[1]}
+									w="100%"
+									rounded="5px"
+								/>
 								<Image
 									w="150px"
 									h="100px"
-									src={imageLI[2]}
+									src={inspirationImage[2]}
 									rounded="5px"
 									filter="auto"
 									brightness="40%"
