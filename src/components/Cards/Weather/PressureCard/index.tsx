@@ -23,7 +23,6 @@ const PressureCard = () => {
 				</Heading>
 			</Flex>
 			<Flex>
-				{" "}
 				<Image src={PressureIcon} />
 			</Flex>
 		</Flex>
