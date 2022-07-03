@@ -2,6 +2,7 @@ import { Switch, Route } from "react-router-dom";
 import Weather from "./pages/Weather";
 import DisasterMap from "./pages/DisasterMap";
 import Fundraising from "./pages/Fundraising";
+import FundraisingContent from "./pages/Fundraising/FundraisingContent";
 import Volunteer from "./pages/Volunteer";
 import VolunteerContent from "./pages/Volunteer/VolunteerContent";
 import WhatToDo from "./pages/WhatToDo";
@@ -18,11 +19,14 @@ export default function App() {
 				<Route path="/volunteer">
 					<Volunteer />
 				</Route>
-				<Route path="/register">
+				<Route path="/volunteercontent">
 					<VolunteerContent />
 				</Route>
 				<Route path="/fundraising">
 					<Fundraising />
+				</Route>
+				<Route path="/fundraisingcontent">
+					<FundraisingContent />
 				</Route>
 				<Route path="/disastermap">
 					<DisasterMap />
