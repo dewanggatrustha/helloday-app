@@ -8,9 +8,38 @@ const userData = [
 		notification: [
 			{
 				id: 1,
+				date: "Sunday, July 3, 2022",
+				time: "12.43 WIB",
+				disaster: "Earthquake",
+				Location: "Yogyakarta, DIY",
 			},
 			{
 				id: 2,
+				date: "Tuesday, July 5, 2022",
+				time: "10.15 WIB",
+				disaster: "Tsunami",
+				location: "Pangandaran, West Java",
+			},
+			{
+				id: 3,
+				date: "Tuesday, July 1, 2022",
+				time: "10.15 WIB",
+				disaster: "Earthquake",
+				location: "Cilacap, Central Java",
+			},
+			{
+				id: 4,
+				date: "Tuesday, July 5, 2022",
+				time: "10.15 WIB",
+				disaster: "Earthquake",
+				location: "Pekalongan, Central Java",
+			},
+			{
+				id: 5,
+				date: "Tuesday, July 5, 2022",
+				time: "10.15 WIB",
+				disaster: "Tsunami",
+				location: "Cilegon, Banten",
 			},
 		],
 	},
