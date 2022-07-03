@@ -1,12 +1,12 @@
 const fundraisingSlides = [
 	{
-		img: "https://images.pexels.com/photos/2599537/pexels-photo-2599537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+		img: "https://drive.google.com/uc?export=view&id=1QtM7o_odfVQ4Adk9pdF3bU8mjHuSN-Oq",
 	},
 	{
-		img: "https://images.pexels.com/photos/2714581/pexels-photo-2714581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+		img: "https://drive.google.com/uc?export=view&id=1vAixANYYRg6uAT7nlp-4WEGwM3XJEuTo",
 	},
 	{
-		img: "https://images.pexels.com/photos/2878019/pexels-photo-2878019.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+		img: "https://drive.google.com/uc?export=view&id=1R1wOqCEFmzQuZdt_rSKSgkcwRzTgJhFN",
 	},
 ];
 
