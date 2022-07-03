@@ -1,10 +1,25 @@
-# Getting Started with Create React App
+# HELLO DAY WEB APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with React.
 
-## Available Scripts
+## Project Goals
 
-In the project directory, you can run:
+This project main goal is to reduce the number of victims of natural disasters by implementing an early warning system to increase awareness of the potential threats of disasters, especially among those who live in vulnerable areas. Another goal of this project is to make people aware of the disaster and how to manage it, not with panic that actually makes us not know where to go and maybe even do something that shouldn't be done when a disaster happens, this project soon will provide more information about the disaster, will give a map to avoid the disaster that may happen around us, because  basically there is no place is safe from natural disaster, for example is an earthquake.
+
+## Expected Outcome
+* Increase the level of public awareness regarding natural disasters that may occur in the vicinity.
+* Improving the quality of life of victims of natural disasters through donations.
+
+## Succes Metrics
+* The project can be completed by having all the features planned.
+* The website has a responsive design so that it can be accessed from mobile or desktop.
+* The system can provide warnings related to disasters with accurate data.
+
+## Features
+* Disaster Map
+<img src="https://drive.google.com/file/d/1bGW0X7iccb8r7Q5ZKR6kHKOlC2oGIz14/view?usp=sharing"> 
+
+
 
 ### `npm start`
 
