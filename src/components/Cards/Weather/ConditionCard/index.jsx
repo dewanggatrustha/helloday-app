@@ -1,22 +1,23 @@
 import React from "react";
-import { Flex, Heading, Text } from "@chakra-ui/react";
-import { WiDaySunny } from "react-icons/wi";
+import { Box, Text } from "@chakra-ui/react";
+import { WiSolarEclipse } from "react-icons/wi";
 
-const ConditionCard = () => {
-	return (
-		<Flex
-			flexDirection="column"
-			boxShadow="xs"
-			p="12px"
-			maxW="100px"
-			rounded="15px"
-			bg="white"
-		>
-			<Text>Now</Text>
-			<WiDaySunny />
-			<Text>27°C</Text>W
-		</Flex>
-	);
+const ConditionCard = ({ time, temp }) => {
+  return (
+    <Box
+      boxShadow="md"
+      p="12px"
+      mb="10"
+      w="80px"
+      rounded="15px"
+      bg="white"
+      align="center"
+    >
+      <Text>{time} </Text>
+      <WiSolarEclipse size="50px" color="#F4CC3E" />
+      <Text fontWeight="700">{temp}°C</Text>
+    </Box>
+  );
 };
 
 export default ConditionCard;
