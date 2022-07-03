@@ -10,17 +10,31 @@ import {
 	Grid,
 	GridItem,
 } from "@chakra-ui/react";
-
-const SquareNewsCard = ({ imageAlt, imageUrl, title, desc, editor, link }) => {
+import { Route } from "react-router-dom";
+interface SquareNewsCardProps {
+	imageAlt: string;
+	imageUrl: string;
+	title: string;
+	desc: string;
+	editor: string;
+	link: string;
+}
+const SquareNewsCard = ({
+	imageAlt,
+	imageUrl,
+	title,
+	desc,
+	editor,
+	link,
+}: SquareNewsCardProps) => {
 	return (
 		<LinkBox
-			to={link}
 			border="1px"
 			borderColor="gray.100"
 			borderRadius="10px"
 			boxSize="350px"
 			overflow="hidden"
-			align="left"
+			// align="left"
 			boxShadow="md"
 			ml="2"
 			mr="5"
@@ -32,7 +46,7 @@ const SquareNewsCard = ({ imageAlt, imageUrl, title, desc, editor, link }) => {
 					<Image
 						w="300px"
 						h="120"
-						objectFit="Cover"
+						objectFit="cover"
 						src={imageUrl}
 						alt={imageAlt}
 						borderRadius="base"

@@ -48,7 +48,7 @@ const Volunteer = () => {
 							borderRadius="15px"
 							height="360px"
 							width="100%"
-							objectFit="Cover"
+							objectFit="cover"
 							src="https://www.indorelawan.org/blog/wp-content/uploads/2018/07/494296_620.jpg"
 							alt="Volunteer"
 						/>

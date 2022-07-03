@@ -12,6 +12,15 @@ import {
 } from "@chakra-ui/react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
+interface SquareVolunteerCardProps {
+	imageAlt: string;
+	imageUrl: string;
+	title: string;
+	desc: string;
+	koordinator: string;
+	achieved: string;
+	link: string;
+}
 const SquareVolunteerCard = ({
 	imageAlt,
 	imageUrl,
@@ -20,7 +29,7 @@ const SquareVolunteerCard = ({
 	koordinator,
 	achieved,
 	link,
-}) => {
+}: SquareVolunteerCardProps) => {
 	return (
 		<LinkBox
 			border="1px"
@@ -28,7 +37,7 @@ const SquareVolunteerCard = ({
 			borderRadius="10px"
 			boxSize="350px"
 			overflow="hidden"
-			align="left"
+			// align= 'right' as 'right'
 			boxShadow="md"
 			ml="2"
 			mr="5"
@@ -40,7 +49,7 @@ const SquareVolunteerCard = ({
 					<Image
 						w="300px"
 						h="120"
-						objectFit="Cover"
+						objectFit="cover"
 						src={imageUrl}
 						alt={imageAlt}
 						borderRadius="base"
