@@ -56,7 +56,7 @@ const SquareVolunteerCard = ({
         <HStack spacing="24px" mt="2">
           <VStack spacing="5px">
             <Box w="100%">
-              <LinkOverlay href={link} fontWeight="bold" fontSize={18} mb="5">
+              <LinkOverlay href={link} fontWeight="bold" fontSize={16} mb="5">
                 {title}
               </LinkOverlay>
               <Text align="left" fontSize={13} mb="2" mt="3">
