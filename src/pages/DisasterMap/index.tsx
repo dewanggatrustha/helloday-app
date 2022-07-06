@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import HelloMap from "../../components/HelloMap";
 import LatestDisasterCard from "../../components/Cards/DisasterMap/LatestDisasterCard";
+import LegendCard from "../../components/Cards/DisasterMap/LegendCard";
 
 const DisasterMap = () => {
 	return (
