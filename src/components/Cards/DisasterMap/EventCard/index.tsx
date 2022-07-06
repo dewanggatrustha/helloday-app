@@ -32,19 +32,21 @@ const EventCard = ({
 						{city}
 					</Heading>
 				</Flex>
-				<Flex justifyItems="center" gap={8}>
-					<Flex flexDirection="column">
+				<Flex justifyItems="center" gap={24}>
+					<Flex flexDirection="column" alignItems="center">
 						<Flex>
-							<Box mt="3px">
+							<Box mt="3px" mr="2px">
 								<MdOutlineDateRange />
 							</Box>
 							<Text fontWeight="600">Date</Text>
 						</Flex>
 						<Text fontWeight="600">{date}</Text>
 					</Flex>
-					<Flex flexDirection="column">
+					<Flex flexDirection="column" alignItems="center">
 						<Flex>
-							<Box mt="3px">{children}</Box>
+							<Box mt="3px" mr="2px">
+								{children}
+							</Box>
 							<Text fontWeight="600">{anotherTitle}</Text>
 						</Flex>
 						<Text fontWeight="600">{anotherDetail}</Text>
