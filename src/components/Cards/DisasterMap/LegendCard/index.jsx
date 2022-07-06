@@ -5,7 +5,7 @@ import { RiMapPin2Fill } from "react-icons/ri";
 const LegendCard = () => {
 	return (
 		<Flex
-			ml="970px"
+			ml="12px"
 			mt="12px"
 			float="right"
 			bg="white"
