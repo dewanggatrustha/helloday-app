@@ -63,26 +63,6 @@ const Map = () => {
 				.addTo(map);
 		});
 
-		// Fire Marker
-		geoJson.fire.forEach((disaster) => {
-			// Create a React ref
-			const ref = React.createRef();
-			// Create a new DOM node and save it to the React ref
-			ref.current = document.createElement("div");
-			// Render a Marker Component on our new DOM node
-			ReactDOM.render(
-				<Marker
-					disaster={disaster}
-					color="#E53E3E" // Red.500
-				/>,
-				ref.current
-			);
-			// Create a Mapbox Marker at our new DOM node
-			new mapboxgl.Marker(ref.current)
-				.setLngLat(disaster.geometry.coordinates)
-				.addTo(map);
-		});
-
 		// Flood Marker
 		geoJson.flood.forEach((disaster) => {
 			// Create a React ref
