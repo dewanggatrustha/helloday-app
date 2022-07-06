@@ -83,7 +83,7 @@ const volunteercontentData = [
     imageBy:
       "https://upload.wikimedia.org/wikipedia/commons/5/57/UNICEF_Logo.png",
     title: "Help our friend on South Kalimantan",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    desc: "The flood occurred in Hulu Sungai Tengah Regency, South Kalimantan Province (Kalsel), on Tuesday (11/1/2022), at 09.20 local time or WITA.",
     progress: 79,
     achieved: "Rp 15.920.000",
     target: "Rp 20.000.000",
@@ -102,7 +102,7 @@ const volunteercontentData = [
     imageBy:
       "https://upload.wikimedia.org/wikipedia/commons/5/57/UNICEF_Logo.png",
     title: "Help our friend on Nusa Tenggara Timur",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+    desc: "Flash floods hit East Flores Regency, East Nusa Tenggara (NTT) on Sunday early in the morning. The latest news says 54 people died in the incident.",
     progress: 36,
     achieved: "Rp 36.800.000",
     target: "Rp 100.000.000",
